@@ -1,0 +1,102 @@
+*{margin: 0;padding: 0;font-size: 100%;font-family: 'Open Sans', sans-serif; box-sizing: border-box;
+    color:#707070;
+    scroll-behavior: smooth;
+}
+html a{text-decoration: none;text-transform: uppercase;}
+ul li{text-decoration: none;cursor: pointer; list-style-type: none;}
+
+/*header*/
+header{
+    background-color: #fafafa;/*#b3e5fc;*/
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 50px ;
+}
+header{ vertical-align: middle !important;}
+header nav ul{display: flex;}
+header nav ul li{margin:0px 15px; }
+header li:first-child{margin-left: 0px;}
+header li:last-child{margin-right: 0px;}
+@media(max-width:700px){
+    header{flex-direction: column;}
+    header img{margin-bottom: 15px;}
+}
+
+/*carrousel*/
+.carrousel{
+    background-image: url(../img/coronavirus-4833754_1920.jpg);background-size: cover; min-height: 100vh;display: flex;
+    justify-content: center; align-items: center; flex-direction: column;text-align: center;}
+.carrousel h1{font-size: 3rem;margin-bottom: 15px; margin-top:150px;text-transform: uppercase;color: #ffffff;}
+.carrousel h3{font-size: 2rem;margin-bottom: 15px;text-transform: uppercase;color: #ffffff;}
+.btn{color:#ff8f00 ;text-decoration: none; background-color: #fff; border-radius: 5px;padding: 20px 50px; text-transform: uppercase;}
+@media(max-width:700px){
+    .carrousel h1{font-size:1.5rem;}
+    .carrousel h3{font-size:0.5rem;}
+}
+/*sobre mim*/
+.sobre{display: flex; flex-direction: column; align-items: center; padding: 50px;}
+.sobre .eu{border-radius: 100px;margin-bottom: 15px;}
+.sobre h3{font-size: 2rem; margin-bottom: 35px;color:#616161 ;}
+.sobre p{max-width: 800px; margin-bottom: 35px;text-align: center}
+.sobre hr{ width:200px ; height: 2px; background-color:#707070;margin-bottom: 70px; border:none}
+
+.sbr{display: flex;justify-content: space-between; flex-direction: row; flex-wrap: nowrap;}
+.sbr .small{flex-basis: 40%;padding:10px}
+.sbr .large{flex-basis: 60%;}
+.small h1{font-size: 2rem; text-transform: uppercase;}
+.small p{font-size: 1.5rem;text-align: left;}
+@media(max-width:700px){
+    .sbr .large{flex-basis: 100%;} 
+    .sbr .audio{display: none;}
+    .sbr .small{display: none;}
+}
+/*notícias*/
+.noticias{background-color:#e0f2f1;display: flex; flex-direction: column; align-items: center; padding: 50px;}
+.noticias h3{font-size: 2rem; margin-bottom: 35px;color:#707070 ;}
+.noticias p{max-width: 800px; margin-bottom: 35px;text-align: center}
+.noticias hr{ width:200px ; height: 2px; background-color:#707070;margin-bottom: 70px; border:none}
+
+.noticias .destaques{width: 100%; display: flex;}
+.noticias .destaques li{padding: 0px 30px; text-align: center;}
+.noticias .destaques li h4{ text-transform: uppercase; font-size: 1.5; margin-bottom: 30px;}
+.noticias .destaques li img{border-radius: 100%;}
+@media(max-width:700px){
+    .noticias .destaques{flex-direction: column;} 
+}
+/*saiba mais*/
+.saiba{display: flex; flex-direction: column; align-items: center; padding: 25px;}
+.saiba h3{font-size: 2rem; margin-bottom: 35px;color:#707070 ; text-transform: uppercase;}
+.saiba hr{ width:200px ; height: 2px; background-color:#707070;margin-bottom: 70px; border:none}
+.saiba .btn-saiba{border-radius: 5px; background-color: #76ff03; color: #ffffff; padding: 20px; margin: 10px auto 30px auto;}
+/*contato*/
+.contato{width:100%;display: flex;justify-content: space-between;padding: 25px;}
+.contato .form h3{font-size:1.5rem;}
+.contato .mapa{padding: 17px;margin: 10px;}
+.contato .form label, .contato .form input, .contato .form textarea{width: 100%; margin: 9px;}
+.contato .form input{height: 40px;padding: 2px; border: solid 1px #c3c63b;}
+.contato .form textarea{border: solid 1px #c3c63b;}
+.contato .form button{width: 150px;border-radius: 5px; color: #ffffff; padding: 15px; margin: 0px  5px; border: none; cursor: pointer;}
+.contato .form .enviar{background-color:#4285F4 ;}
+.contato .form .limpar{background-color:#ff4444;}
+@media(max-width:700px){
+    .contato .form{flex-direction: column; width: 100%; align-items: center; }
+    .contato .form button{width:45%;flex-direction: row; text-align: center;}
+    .contato .mapa{display: none;} 
+}
+/*footer*/
+footer{ display: flex; flex-direction: column;background-color: #2E2E2E;padding: 50px 0px; align-items: center;}
+footer ul{display: flex; margin-bottom: 25px;}
+footer ul li{margin-right: 10px;}
+footer ul li:last-child{margin-right: 0px;}
+footer ul li a{font-size: 2rem;}
+footer p{color: #fff;}
+
+/*top*/
+.top button{position:fixed;right:20px;bottom:40px;border-radius:50%;background:#37474F;border:none;color:white;height:50px;
+    width:50px;}
+
