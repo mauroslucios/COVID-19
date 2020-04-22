@@ -9,7 +9,7 @@ ul li{text-decoration: none;cursor: pointer; list-style-type: none;}
 header{
     background-color: #fafafa;/*#b3e5fc;*/
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
