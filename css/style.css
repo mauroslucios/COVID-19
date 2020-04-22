@@ -25,6 +25,7 @@ header li:last-child{margin-right: 0px;}
 @media(max-width:700px){
     header{flex-direction: column;}
     header img{margin-bottom: 15px;}
+    header ul .in{display: none;}
 }
 
 /*carrousel*/
@@ -78,7 +79,7 @@ header li:last-child{margin-right: 0px;}
 .contato .form h3{font-size:1.5rem;}
 .contato .mapa{padding: 17px;margin: 10px;}
 .contato .form label, .contato .form input, .contato .form textarea{width: 100%; margin: 9px;}
-.contato .form input{height: 40px;padding: 2px; border: solid 1px #c3c63b;}
+.contato .form input{height: 40px;padding: 3px; border: solid 1px #c3c63b;}
 .contato .form textarea{border: solid 1px #c3c63b;}
 .contato .form button{width: 150px;border-radius: 5px; color: #ffffff; padding: 15px; margin: 0px  5px; border: none; cursor: pointer;}
 .contato .form .enviar{background-color:#4285F4 ;}
