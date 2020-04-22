@@ -26,7 +26,7 @@ header li:last-child{margin-right: 0px;}
     header{flex-direction: column;}
     header img{margin-bottom: 15px;}
     header ul .in{display: none;}
-	header ul li{padding-bottom:50px}
+	header ul li{padding-top:20px}
 	header a{padding-bottom:15px}
 }
 
