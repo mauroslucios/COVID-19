@@ -26,6 +26,7 @@ header li:last-child{margin-right: 0px;}
     header{flex-direction: column;}
     header img{margin-bottom: 15px;}
     header ul .in{display: none;}
+	header a{padding-bottom:15px}
 }
 
 /*carrousel*/
