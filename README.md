@@ -5,4 +5,4 @@ https://hiringcoders.gama.academy/
 - Html
 
 
-[![Gama Academy](https://i.imgur.com/KaTghoH.png "Gama Academy")](https://i.imgur.com/KaTghoH.png "Gama Academy")
+[![Covid - Gama Academy Vtex](https://imgur.com/KaTghoH "Covid - Gama Academy Vtex")](https://nervous-heyrovsky-67d313.netlify.app/ "Covid - Gama Academy Vtex")
